@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    height: 100vh;
+    background: linear-gradient(to right, #55439e, #952fff);
+    font-family: 'Quattrocento', serif;
+    font-size: 24px;
+    color: rgb(248, 236, 246);
+    background-image: url(../img/new-year-6800316_1920.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    
+    width: 570px;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    border-radius: 15px;
+    border: none;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(45px);
+    padding-left: 60px;
+    padding-top: 30px;
+    gap: 20px;
+}
+h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
+    color: rgb(248, 236, 246);
+    letter-spacing: 0.08em;
+}
+
+input::placeholder {
+    font-size: 20px;
+}
+
+#inDescricao {
+    
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 24px;
+    margin-top: 10px;
+    font-size: 24px;
+}
+#inValor {
+        width: 400px;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        padding-left: 20px;
+        font-size: 24px;
+        margin-top: 10px;
+    
+}
+#btRegistrar {
+    padding: 10px 15px;
+    border-radius:10px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(45px);
+    color: rgb(53, 51, 52);
+    font-size: 20px;
+    font-family: 'Sarala', serif;
+    font-weight: bold;
+    transition: all .2s;
+}
+
+#btRegistrar:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#btRegistrar:active {
+    
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+#outListaContas {
+    font-size: 26px;
+    color: rgb(65, 58, 58);
+}
+#outTotal {
+    font-size: 24px;
+    color: rgb(100, 34, 73);
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/responsivo.css">
+    <title>Contas do mês</title>
+</head>
+
+<body>
+   
+    <main class="main-container">
+
+        <div class="container">
+     
+            <div class="titulos">
+            <h1>Contas do mês</h1>
+            </div>
+
+            <div class="descricao">
+                 <p>Descrição da conta: 
+                <input type="text" id="inDescricao" placeholder="Descreva a conta">
+                </p>
+            </div>
+
+            <div class="valor">
+                <p>Valor a pagar R$:
+                <input type="text" id="inValor" placeholder="Digite o valor da conta">
+                </p> 
+            </div>
+
+            <div class="btn-registrar">
+                <p>
+                <input type="button" value="Registrar conta" id="btRegistrar">
+                </p>
+            </div class="resposta">
+            
+            <pre id="outListaContas"></pre>
+            <pre id="outTotal"></pre>
+        </div>
+        
+    </div>
+</main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
